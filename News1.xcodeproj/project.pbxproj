@@ -1,0 +1,694 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		112C62F21F2CFE4C00873775 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C62F11F2CFE4C00873775 /* MaterialView.swift */; };
+		112C62F41F2D162E00873775 /* PopularTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 112C62F31F2D162E00873775 /* PopularTableViewCell.swift */; };
+		1143EC091F2BBC5B0060E268 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC081F2BBC5B0060E268 /* AppDelegate.swift */; };
+		1143EC0B1F2BBC5B0060E268 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC0A1F2BBC5B0060E268 /* ViewController.swift */; };
+		1143EC0E1F2BBC5B0060E268 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC0C1F2BBC5B0060E268 /* Main.storyboard */; };
+		1143EC101F2BBC5B0060E268 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC0F1F2BBC5B0060E268 /* Assets.xcassets */; };
+		1143EC131F2BBC5B0060E268 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC111F2BBC5B0060E268 /* LaunchScreen.storyboard */; };
+		1143EC1B1F2CBAC20060E268 /* TopNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC1A1F2CBAC20060E268 /* TopNewsViewController.swift */; };
+		1143EC1D1F2CBAEF0060E268 /* LatestNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC1C1F2CBAEF0060E268 /* LatestNewsViewController.swift */; };
+		1143EC1F1F2CBB310060E268 /* PopularNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC1E1F2CBB310060E268 /* PopularNewsViewController.swift */; };
+		1143EC211F2CBD480060E268 /* TopNewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC201F2CBD480060E268 /* TopNewsTableViewCell.swift */; };
+		1143EC451F2CDD050060E268 /* Arista-Pro-Alternate-Bold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC231F2CDD050060E268 /* Arista-Pro-Alternate-Bold-trial.ttf */; };
+		1143EC461F2CDD060060E268 /* Arista-Pro-Alternate-ExtraLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC241F2CDD050060E268 /* Arista-Pro-Alternate-ExtraLight-trial.ttf */; };
+		1143EC471F2CDD060060E268 /* Arista-Pro-Alternate-Fat-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC251F2CDD050060E268 /* Arista-Pro-Alternate-Fat-trial.ttf */; };
+		1143EC481F2CDD060060E268 /* Arista-Pro-Alternate-Hairline-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC261F2CDD050060E268 /* Arista-Pro-Alternate-Hairline-trial.ttf */; };
+		1143EC491F2CDD060060E268 /* Arista-Pro-Alternate-Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC271F2CDD050060E268 /* Arista-Pro-Alternate-Light-trial.ttf */; };
+		1143EC4A1F2CDD060060E268 /* Arista-Pro-Alternate-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC281F2CDD050060E268 /* Arista-Pro-Alternate-Regular-trial.ttf */; };
+		1143EC4B1F2CDD060060E268 /* Arista-Pro-Alternate-SemiBold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC291F2CDD050060E268 /* Arista-Pro-Alternate-SemiBold-trial.ttf */; };
+		1143EC4C1F2CDD060060E268 /* Arista-Pro-Alternate-Thin-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2A1F2CDD050060E268 /* Arista-Pro-Alternate-Thin-trial.ttf */; };
+		1143EC4D1F2CDD060060E268 /* Arista-Pro-Bold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2B1F2CDD050060E268 /* Arista-Pro-Bold-trial.ttf */; };
+		1143EC4E1F2CDD060060E268 /* Arista-Pro-ExtraLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2C1F2CDD050060E268 /* Arista-Pro-ExtraLight-trial.ttf */; };
+		1143EC4F1F2CDD060060E268 /* Arista-Pro-Family-CC-BY-NCLicensepdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2D1F2CDD050060E268 /* Arista-Pro-Family-CC-BY-NCLicensepdf.pdf */; };
+		1143EC501F2CDD060060E268 /* Arista-Pro-Fat-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2E1F2CDD050060E268 /* Arista-Pro-Fat-trial.ttf */; };
+		1143EC511F2CDD060060E268 /* Arista-Pro-Hairline-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC2F1F2CDD050060E268 /* Arista-Pro-Hairline-trial.ttf */; };
+		1143EC521F2CDD060060E268 /* Arista-Pro-Icons-Bold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC301F2CDD050060E268 /* Arista-Pro-Icons-Bold-trial.ttf */; };
+		1143EC531F2CDD060060E268 /* Arista-Pro-Icons-ExtraLight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC311F2CDD050060E268 /* Arista-Pro-Icons-ExtraLight-trial.ttf */; };
+		1143EC541F2CDD060060E268 /* Arista-Pro-Icons-Hairline-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC321F2CDD050060E268 /* Arista-Pro-Icons-Hairline-trial.ttf */; };
+		1143EC551F2CDD060060E268 /* Arista-Pro-Icons-Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC331F2CDD050060E268 /* Arista-Pro-Icons-Light-trial.ttf */; };
+		1143EC561F2CDD060060E268 /* Arista-Pro-Icons-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC341F2CDD050060E268 /* Arista-Pro-Icons-Regular-trial.ttf */; };
+		1143EC571F2CDD060060E268 /* Arista-Pro-Icons-SemiBold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC351F2CDD050060E268 /* Arista-Pro-Icons-SemiBold-trial.ttf */; };
+		1143EC581F2CDD060060E268 /* Arista-Pro-Icons-Thin-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC361F2CDD050060E268 /* Arista-Pro-Icons-Thin-trial.ttf */; };
+		1143EC591F2CDD060060E268 /* Arista-Pro-Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC371F2CDD050060E268 /* Arista-Pro-Light-trial.ttf */; };
+		1143EC5A1F2CDD060060E268 /* Arista-Pro-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC381F2CDD050060E268 /* Arista-Pro-Regular-trial.ttf */; };
+		1143EC5B1F2CDD060060E268 /* Arista-Pro-SemiBold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC391F2CDD050060E268 /* Arista-Pro-SemiBold-trial.ttf */; };
+		1143EC5C1F2CDD060060E268 /* Arista-Pro-Thin-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3A1F2CDD050060E268 /* Arista-Pro-Thin-trial.ttf */; };
+		1143EC5D1F2CDD060060E268 /* Arista_MYFONTS GALLERY 10.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3B1F2CDD050060E268 /* Arista_MYFONTS GALLERY 10.png */; };
+		1143EC5E1F2CDD060060E268 /* Arista_MYFONTS GALLERY 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3C1F2CDD050060E268 /* Arista_MYFONTS GALLERY 2.png */; };
+		1143EC5F1F2CDD060060E268 /* Arista_MYFONTS GALLERY 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3D1F2CDD050060E268 /* Arista_MYFONTS GALLERY 3.png */; };
+		1143EC601F2CDD060060E268 /* Arista_MYFONTS GALLERY 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3E1F2CDD050060E268 /* Arista_MYFONTS GALLERY 4.png */; };
+		1143EC611F2CDD060060E268 /* Arista_MYFONTS GALLERY 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC3F1F2CDD050060E268 /* Arista_MYFONTS GALLERY 5.png */; };
+		1143EC621F2CDD060060E268 /* Arista_MYFONTS GALLERY 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC401F2CDD050060E268 /* Arista_MYFONTS GALLERY 6.png */; };
+		1143EC631F2CDD060060E268 /* Arista_MYFONTS GALLERY 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC411F2CDD050060E268 /* Arista_MYFONTS GALLERY 7.png */; };
+		1143EC641F2CDD060060E268 /* Arista_MYFONTS GALLERY 8.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC421F2CDD050060E268 /* Arista_MYFONTS GALLERY 8.png */; };
+		1143EC651F2CDD060060E268 /* Arista_MYFONTS GALLERY 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC431F2CDD050060E268 /* Arista_MYFONTS GALLERY 9.png */; };
+		1143EC661F2CDD060060E268 /* Arista_MYFONTS GALLERY COVER 1440 X 720.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC441F2CDD050060E268 /* Arista_MYFONTS GALLERY COVER 1440 X 720.png */; };
+		1143EC821F2CDD1E0060E268 /* Florentia-Black-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC681F2CDD1E0060E268 /* Florentia-Black-Italic-trial.ttf */; };
+		1143EC831F2CDD1E0060E268 /* Florentia-Black-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC691F2CDD1E0060E268 /* Florentia-Black-trial.ttf */; };
+		1143EC841F2CDD1E0060E268 /* Florentia-Bold-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6A1F2CDD1E0060E268 /* Florentia-Bold-Italic-trial.ttf */; };
+		1143EC851F2CDD1E0060E268 /* Florentia-Bold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6B1F2CDD1E0060E268 /* Florentia-Bold-trial.ttf */; };
+		1143EC861F2CDD1E0060E268 /* Florentia-Extrabold-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6C1F2CDD1E0060E268 /* Florentia-Extrabold-Italic-trial.ttf */; };
+		1143EC871F2CDD1E0060E268 /* Florentia-Extrabold-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6D1F2CDD1E0060E268 /* Florentia-Extrabold-trial.ttf */; };
+		1143EC881F2CDD1E0060E268 /* Florentia-Extralight-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6E1F2CDD1E0060E268 /* Florentia-Extralight-Italic-trial.ttf */; };
+		1143EC891F2CDD1E0060E268 /* Florentia-Extralight-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC6F1F2CDD1E0060E268 /* Florentia-Extralight-trial.ttf */; };
+		1143EC8A1F2CDD1E0060E268 /* Florentia-Family-CC-BY-NCLicensepdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC701F2CDD1E0060E268 /* Florentia-Family-CC-BY-NCLicensepdf.pdf */; };
+		1143EC8B1F2CDD1E0060E268 /* Florentia-Fat-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC711F2CDD1E0060E268 /* Florentia-Fat-Italic-trial.ttf */; };
+		1143EC8C1F2CDD1E0060E268 /* Florentia-Fat-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC721F2CDD1E0060E268 /* Florentia-Fat-trial.ttf */; };
+		1143EC8D1F2CDD1E0060E268 /* Florentia-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC731F2CDD1E0060E268 /* Florentia-Italic-trial.ttf */; };
+		1143EC8E1F2CDD1E0060E268 /* Florentia-Light-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC741F2CDD1E0060E268 /* Florentia-Light-Italic-trial.ttf */; };
+		1143EC8F1F2CDD1E0060E268 /* Florentia-Light-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC751F2CDD1E0060E268 /* Florentia-Light-trial.ttf */; };
+		1143EC901F2CDD1E0060E268 /* Florentia-Medium-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC761F2CDD1E0060E268 /* Florentia-Medium-Italic-trial.ttf */; };
+		1143EC911F2CDD1E0060E268 /* Florentia-Medium-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC771F2CDD1E0060E268 /* Florentia-Medium-trial.ttf */; };
+		1143EC921F2CDD1E0060E268 /* Florentia-Regular-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC781F2CDD1E0060E268 /* Florentia-Regular-trial.ttf */; };
+		1143EC931F2CDD1E0060E268 /* Florentia-Thin-Italic-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC791F2CDD1E0060E268 /* Florentia-Thin-Italic-trial.ttf */; };
+		1143EC941F2CDD1E0060E268 /* Florentia-Thin-trial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7A1F2CDD1E0060E268 /* Florentia-Thin-trial.ttf */; };
+		1143EC951F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7B1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 2.png */; };
+		1143EC961F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7C1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 3.png */; };
+		1143EC971F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7D1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 4.png */; };
+		1143EC981F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7E1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 5.png */; };
+		1143EC991F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 7.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC7F1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 7.png */; };
+		1143EC9A1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 9.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC801F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 9.png */; };
+		1143EC9B1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png in Resources */ = {isa = PBXBuildFile; fileRef = 1143EC811F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png */; };
+		1143EC9D1F2CDF190060E268 /* LatestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1143EC9C1F2CDF190060E268 /* LatestTableViewCell.swift */; };
+		11A1FCCF1F2DB2B100B69834 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A1FCCE1F2DB2B100B69834 /* DetailViewController.swift */; };
+		6A1F90A4298F7D5FFFB081E2 /* Pods_News1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A6034BF826E997260314302A /* Pods_News1.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		112C62F11F2CFE4C00873775 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		112C62F31F2D162E00873775 /* PopularTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularTableViewCell.swift; sourceTree = "<group>"; };
+		1143EC051F2BBC5B0060E268 /* News1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = News1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1143EC081F2BBC5B0060E268 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1143EC0A1F2BBC5B0060E268 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1143EC0D1F2BBC5B0060E268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1143EC0F1F2BBC5B0060E268 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1143EC121F2BBC5B0060E268 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1143EC141F2BBC5B0060E268 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1143EC1A1F2CBAC20060E268 /* TopNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNewsViewController.swift; sourceTree = "<group>"; };
+		1143EC1C1F2CBAEF0060E268 /* LatestNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestNewsViewController.swift; sourceTree = "<group>"; };
+		1143EC1E1F2CBB310060E268 /* PopularNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopularNewsViewController.swift; sourceTree = "<group>"; };
+		1143EC201F2CBD480060E268 /* TopNewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopNewsTableViewCell.swift; sourceTree = "<group>"; };
+		1143EC231F2CDD050060E268 /* Arista-Pro-Alternate-Bold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Bold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC241F2CDD050060E268 /* Arista-Pro-Alternate-ExtraLight-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-ExtraLight-trial.ttf"; sourceTree = "<group>"; };
+		1143EC251F2CDD050060E268 /* Arista-Pro-Alternate-Fat-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Fat-trial.ttf"; sourceTree = "<group>"; };
+		1143EC261F2CDD050060E268 /* Arista-Pro-Alternate-Hairline-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Hairline-trial.ttf"; sourceTree = "<group>"; };
+		1143EC271F2CDD050060E268 /* Arista-Pro-Alternate-Light-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Light-trial.ttf"; sourceTree = "<group>"; };
+		1143EC281F2CDD050060E268 /* Arista-Pro-Alternate-Regular-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Regular-trial.ttf"; sourceTree = "<group>"; };
+		1143EC291F2CDD050060E268 /* Arista-Pro-Alternate-SemiBold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-SemiBold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC2A1F2CDD050060E268 /* Arista-Pro-Alternate-Thin-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Alternate-Thin-trial.ttf"; sourceTree = "<group>"; };
+		1143EC2B1F2CDD050060E268 /* Arista-Pro-Bold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Bold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC2C1F2CDD050060E268 /* Arista-Pro-ExtraLight-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-ExtraLight-trial.ttf"; sourceTree = "<group>"; };
+		1143EC2D1F2CDD050060E268 /* Arista-Pro-Family-CC-BY-NCLicensepdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Arista-Pro-Family-CC-BY-NCLicensepdf.pdf"; sourceTree = "<group>"; };
+		1143EC2E1F2CDD050060E268 /* Arista-Pro-Fat-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Fat-trial.ttf"; sourceTree = "<group>"; };
+		1143EC2F1F2CDD050060E268 /* Arista-Pro-Hairline-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Hairline-trial.ttf"; sourceTree = "<group>"; };
+		1143EC301F2CDD050060E268 /* Arista-Pro-Icons-Bold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-Bold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC311F2CDD050060E268 /* Arista-Pro-Icons-ExtraLight-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-ExtraLight-trial.ttf"; sourceTree = "<group>"; };
+		1143EC321F2CDD050060E268 /* Arista-Pro-Icons-Hairline-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-Hairline-trial.ttf"; sourceTree = "<group>"; };
+		1143EC331F2CDD050060E268 /* Arista-Pro-Icons-Light-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-Light-trial.ttf"; sourceTree = "<group>"; };
+		1143EC341F2CDD050060E268 /* Arista-Pro-Icons-Regular-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-Regular-trial.ttf"; sourceTree = "<group>"; };
+		1143EC351F2CDD050060E268 /* Arista-Pro-Icons-SemiBold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-SemiBold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC361F2CDD050060E268 /* Arista-Pro-Icons-Thin-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Icons-Thin-trial.ttf"; sourceTree = "<group>"; };
+		1143EC371F2CDD050060E268 /* Arista-Pro-Light-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Light-trial.ttf"; sourceTree = "<group>"; };
+		1143EC381F2CDD050060E268 /* Arista-Pro-Regular-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Regular-trial.ttf"; sourceTree = "<group>"; };
+		1143EC391F2CDD050060E268 /* Arista-Pro-SemiBold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-SemiBold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC3A1F2CDD050060E268 /* Arista-Pro-Thin-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Arista-Pro-Thin-trial.ttf"; sourceTree = "<group>"; };
+		1143EC3B1F2CDD050060E268 /* Arista_MYFONTS GALLERY 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 10.png"; sourceTree = "<group>"; };
+		1143EC3C1F2CDD050060E268 /* Arista_MYFONTS GALLERY 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 2.png"; sourceTree = "<group>"; };
+		1143EC3D1F2CDD050060E268 /* Arista_MYFONTS GALLERY 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 3.png"; sourceTree = "<group>"; };
+		1143EC3E1F2CDD050060E268 /* Arista_MYFONTS GALLERY 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 4.png"; sourceTree = "<group>"; };
+		1143EC3F1F2CDD050060E268 /* Arista_MYFONTS GALLERY 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 5.png"; sourceTree = "<group>"; };
+		1143EC401F2CDD050060E268 /* Arista_MYFONTS GALLERY 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 6.png"; sourceTree = "<group>"; };
+		1143EC411F2CDD050060E268 /* Arista_MYFONTS GALLERY 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 7.png"; sourceTree = "<group>"; };
+		1143EC421F2CDD050060E268 /* Arista_MYFONTS GALLERY 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 8.png"; sourceTree = "<group>"; };
+		1143EC431F2CDD050060E268 /* Arista_MYFONTS GALLERY 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY 9.png"; sourceTree = "<group>"; };
+		1143EC441F2CDD050060E268 /* Arista_MYFONTS GALLERY COVER 1440 X 720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arista_MYFONTS GALLERY COVER 1440 X 720.png"; sourceTree = "<group>"; };
+		1143EC681F2CDD1E0060E268 /* Florentia-Black-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Black-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC691F2CDD1E0060E268 /* Florentia-Black-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Black-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6A1F2CDD1E0060E268 /* Florentia-Bold-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Bold-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6B1F2CDD1E0060E268 /* Florentia-Bold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Bold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6C1F2CDD1E0060E268 /* Florentia-Extrabold-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Extrabold-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6D1F2CDD1E0060E268 /* Florentia-Extrabold-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Extrabold-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6E1F2CDD1E0060E268 /* Florentia-Extralight-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Extralight-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC6F1F2CDD1E0060E268 /* Florentia-Extralight-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Extralight-trial.ttf"; sourceTree = "<group>"; };
+		1143EC701F2CDD1E0060E268 /* Florentia-Family-CC-BY-NCLicensepdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Florentia-Family-CC-BY-NCLicensepdf.pdf"; sourceTree = "<group>"; };
+		1143EC711F2CDD1E0060E268 /* Florentia-Fat-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Fat-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC721F2CDD1E0060E268 /* Florentia-Fat-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Fat-trial.ttf"; sourceTree = "<group>"; };
+		1143EC731F2CDD1E0060E268 /* Florentia-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC741F2CDD1E0060E268 /* Florentia-Light-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Light-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC751F2CDD1E0060E268 /* Florentia-Light-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Light-trial.ttf"; sourceTree = "<group>"; };
+		1143EC761F2CDD1E0060E268 /* Florentia-Medium-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Medium-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC771F2CDD1E0060E268 /* Florentia-Medium-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Medium-trial.ttf"; sourceTree = "<group>"; };
+		1143EC781F2CDD1E0060E268 /* Florentia-Regular-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Regular-trial.ttf"; sourceTree = "<group>"; };
+		1143EC791F2CDD1E0060E268 /* Florentia-Thin-Italic-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Thin-Italic-trial.ttf"; sourceTree = "<group>"; };
+		1143EC7A1F2CDD1E0060E268 /* Florentia-Thin-trial.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Florentia-Thin-trial.ttf"; sourceTree = "<group>"; };
+		1143EC7B1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 2.png"; sourceTree = "<group>"; };
+		1143EC7C1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 3.png"; sourceTree = "<group>"; };
+		1143EC7D1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 4.png"; sourceTree = "<group>"; };
+		1143EC7E1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 5.png"; sourceTree = "<group>"; };
+		1143EC7F1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 7.png"; sourceTree = "<group>"; };
+		1143EC801F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY 9.png"; sourceTree = "<group>"; };
+		1143EC811F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png"; sourceTree = "<group>"; };
+		1143EC9C1F2CDF190060E268 /* LatestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatestTableViewCell.swift; sourceTree = "<group>"; };
+		11A1FCCE1F2DB2B100B69834 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3EFA32CFF65855AAA8DCC5B3 /* Pods-News1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-News1/Pods-News1.debug.xcconfig"; sourceTree = "<group>"; };
+		8C2ECAB5B0BBFABE735FF7EC /* Pods-News1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-News1.release.xcconfig"; path = "Pods/Target Support Files/Pods-News1/Pods-News1.release.xcconfig"; sourceTree = "<group>"; };
+		A6034BF826E997260314302A /* Pods_News1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_News1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1143EC021F2BBC5B0060E268 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1F90A4298F7D5FFFB081E2 /* Pods_News1.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1143EBFC1F2BBC5B0060E268 = {
+			isa = PBXGroup;
+			children = (
+				1143EC071F2BBC5B0060E268 /* News1 */,
+				1143EC061F2BBC5B0060E268 /* Products */,
+				652084AE6D6C99F4C67C1634 /* Pods */,
+				95379F68864187C5BA7A66E4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1143EC061F2BBC5B0060E268 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC051F2BBC5B0060E268 /* News1.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1143EC071F2BBC5B0060E268 /* News1 */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC081F2BBC5B0060E268 /* AppDelegate.swift */,
+				1143EC0A1F2BBC5B0060E268 /* ViewController.swift */,
+				11BCB94C1F32109900B54855 /* View Controller */,
+				11BCB94B1F32106A00B54855 /* Table View Cell */,
+				1143EC0C1F2BBC5B0060E268 /* Main.storyboard */,
+				1143EC0F1F2BBC5B0060E268 /* Assets.xcassets */,
+				1143EC111F2BBC5B0060E268 /* LaunchScreen.storyboard */,
+				1143EC141F2BBC5B0060E268 /* Info.plist */,
+				112C62F11F2CFE4C00873775 /* MaterialView.swift */,
+				1143EC671F2CDD1E0060E268 /* Florentia */,
+				1143EC221F2CDD050060E268 /* Arista-Pro */,
+			);
+			path = News1;
+			sourceTree = "<group>";
+		};
+		1143EC221F2CDD050060E268 /* Arista-Pro */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC231F2CDD050060E268 /* Arista-Pro-Alternate-Bold-trial.ttf */,
+				1143EC241F2CDD050060E268 /* Arista-Pro-Alternate-ExtraLight-trial.ttf */,
+				1143EC251F2CDD050060E268 /* Arista-Pro-Alternate-Fat-trial.ttf */,
+				1143EC261F2CDD050060E268 /* Arista-Pro-Alternate-Hairline-trial.ttf */,
+				1143EC271F2CDD050060E268 /* Arista-Pro-Alternate-Light-trial.ttf */,
+				1143EC281F2CDD050060E268 /* Arista-Pro-Alternate-Regular-trial.ttf */,
+				1143EC291F2CDD050060E268 /* Arista-Pro-Alternate-SemiBold-trial.ttf */,
+				1143EC2A1F2CDD050060E268 /* Arista-Pro-Alternate-Thin-trial.ttf */,
+				1143EC2B1F2CDD050060E268 /* Arista-Pro-Bold-trial.ttf */,
+				1143EC2C1F2CDD050060E268 /* Arista-Pro-ExtraLight-trial.ttf */,
+				1143EC2D1F2CDD050060E268 /* Arista-Pro-Family-CC-BY-NCLicensepdf.pdf */,
+				1143EC2E1F2CDD050060E268 /* Arista-Pro-Fat-trial.ttf */,
+				1143EC2F1F2CDD050060E268 /* Arista-Pro-Hairline-trial.ttf */,
+				1143EC301F2CDD050060E268 /* Arista-Pro-Icons-Bold-trial.ttf */,
+				1143EC311F2CDD050060E268 /* Arista-Pro-Icons-ExtraLight-trial.ttf */,
+				1143EC321F2CDD050060E268 /* Arista-Pro-Icons-Hairline-trial.ttf */,
+				1143EC331F2CDD050060E268 /* Arista-Pro-Icons-Light-trial.ttf */,
+				1143EC341F2CDD050060E268 /* Arista-Pro-Icons-Regular-trial.ttf */,
+				1143EC351F2CDD050060E268 /* Arista-Pro-Icons-SemiBold-trial.ttf */,
+				1143EC361F2CDD050060E268 /* Arista-Pro-Icons-Thin-trial.ttf */,
+				1143EC371F2CDD050060E268 /* Arista-Pro-Light-trial.ttf */,
+				1143EC381F2CDD050060E268 /* Arista-Pro-Regular-trial.ttf */,
+				1143EC391F2CDD050060E268 /* Arista-Pro-SemiBold-trial.ttf */,
+				1143EC3A1F2CDD050060E268 /* Arista-Pro-Thin-trial.ttf */,
+				1143EC3B1F2CDD050060E268 /* Arista_MYFONTS GALLERY 10.png */,
+				1143EC3C1F2CDD050060E268 /* Arista_MYFONTS GALLERY 2.png */,
+				1143EC3D1F2CDD050060E268 /* Arista_MYFONTS GALLERY 3.png */,
+				1143EC3E1F2CDD050060E268 /* Arista_MYFONTS GALLERY 4.png */,
+				1143EC3F1F2CDD050060E268 /* Arista_MYFONTS GALLERY 5.png */,
+				1143EC401F2CDD050060E268 /* Arista_MYFONTS GALLERY 6.png */,
+				1143EC411F2CDD050060E268 /* Arista_MYFONTS GALLERY 7.png */,
+				1143EC421F2CDD050060E268 /* Arista_MYFONTS GALLERY 8.png */,
+				1143EC431F2CDD050060E268 /* Arista_MYFONTS GALLERY 9.png */,
+				1143EC441F2CDD050060E268 /* Arista_MYFONTS GALLERY COVER 1440 X 720.png */,
+			);
+			path = "Arista-Pro";
+			sourceTree = "<group>";
+		};
+		1143EC671F2CDD1E0060E268 /* Florentia */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC681F2CDD1E0060E268 /* Florentia-Black-Italic-trial.ttf */,
+				1143EC691F2CDD1E0060E268 /* Florentia-Black-trial.ttf */,
+				1143EC6A1F2CDD1E0060E268 /* Florentia-Bold-Italic-trial.ttf */,
+				1143EC6B1F2CDD1E0060E268 /* Florentia-Bold-trial.ttf */,
+				1143EC6C1F2CDD1E0060E268 /* Florentia-Extrabold-Italic-trial.ttf */,
+				1143EC6D1F2CDD1E0060E268 /* Florentia-Extrabold-trial.ttf */,
+				1143EC6E1F2CDD1E0060E268 /* Florentia-Extralight-Italic-trial.ttf */,
+				1143EC6F1F2CDD1E0060E268 /* Florentia-Extralight-trial.ttf */,
+				1143EC701F2CDD1E0060E268 /* Florentia-Family-CC-BY-NCLicensepdf.pdf */,
+				1143EC711F2CDD1E0060E268 /* Florentia-Fat-Italic-trial.ttf */,
+				1143EC721F2CDD1E0060E268 /* Florentia-Fat-trial.ttf */,
+				1143EC731F2CDD1E0060E268 /* Florentia-Italic-trial.ttf */,
+				1143EC741F2CDD1E0060E268 /* Florentia-Light-Italic-trial.ttf */,
+				1143EC751F2CDD1E0060E268 /* Florentia-Light-trial.ttf */,
+				1143EC761F2CDD1E0060E268 /* Florentia-Medium-Italic-trial.ttf */,
+				1143EC771F2CDD1E0060E268 /* Florentia-Medium-trial.ttf */,
+				1143EC781F2CDD1E0060E268 /* Florentia-Regular-trial.ttf */,
+				1143EC791F2CDD1E0060E268 /* Florentia-Thin-Italic-trial.ttf */,
+				1143EC7A1F2CDD1E0060E268 /* Florentia-Thin-trial.ttf */,
+				1143EC7B1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 2.png */,
+				1143EC7C1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 3.png */,
+				1143EC7D1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 4.png */,
+				1143EC7E1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 5.png */,
+				1143EC7F1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 7.png */,
+				1143EC801F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 9.png */,
+				1143EC811F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png */,
+			);
+			name = Florentia;
+			path = "Arista-Pro/Florentia";
+			sourceTree = "<group>";
+		};
+		11BCB94B1F32106A00B54855 /* Table View Cell */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC201F2CBD480060E268 /* TopNewsTableViewCell.swift */,
+				1143EC9C1F2CDF190060E268 /* LatestTableViewCell.swift */,
+				112C62F31F2D162E00873775 /* PopularTableViewCell.swift */,
+			);
+			name = "Table View Cell";
+			sourceTree = "<group>";
+		};
+		11BCB94C1F32109900B54855 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1143EC1A1F2CBAC20060E268 /* TopNewsViewController.swift */,
+				1143EC1C1F2CBAEF0060E268 /* LatestNewsViewController.swift */,
+				1143EC1E1F2CBB310060E268 /* PopularNewsViewController.swift */,
+				11A1FCCE1F2DB2B100B69834 /* DetailViewController.swift */,
+			);
+			name = "View Controller";
+			sourceTree = "<group>";
+		};
+		652084AE6D6C99F4C67C1634 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3EFA32CFF65855AAA8DCC5B3 /* Pods-News1.debug.xcconfig */,
+				8C2ECAB5B0BBFABE735FF7EC /* Pods-News1.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		95379F68864187C5BA7A66E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A6034BF826E997260314302A /* Pods_News1.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1143EC041F2BBC5B0060E268 /* News1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1143EC171F2BBC5B0060E268 /* Build configuration list for PBXNativeTarget "News1" */;
+			buildPhases = (
+				9D672E4449993E78A78DEA3D /* [CP] Check Pods Manifest.lock */,
+				1143EC011F2BBC5B0060E268 /* Sources */,
+				1143EC021F2BBC5B0060E268 /* Frameworks */,
+				1143EC031F2BBC5B0060E268 /* Resources */,
+				3EC94A010DFB4704187E4998 /* [CP] Embed Pods Frameworks */,
+				836A824442B7F0439A6E12B7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = News1;
+			productName = News1;
+			productReference = 1143EC051F2BBC5B0060E268 /* News1.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1143EBFD1F2BBC5B0060E268 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ammy Pandey";
+				TargetAttributes = {
+					1143EC041F2BBC5B0060E268 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = ZD2S85JCK8;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1143EC001F2BBC5B0060E268 /* Build configuration list for PBXProject "News1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1143EBFC1F2BBC5B0060E268;
+			productRefGroup = 1143EC061F2BBC5B0060E268 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1143EC041F2BBC5B0060E268 /* News1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1143EC031F2BBC5B0060E268 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1143EC8E1F2CDD1E0060E268 /* Florentia-Light-Italic-trial.ttf in Resources */,
+				1143EC5B1F2CDD060060E268 /* Arista-Pro-SemiBold-trial.ttf in Resources */,
+				1143EC9B1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY COVER 1440 X 720.png in Resources */,
+				1143EC5E1F2CDD060060E268 /* Arista_MYFONTS GALLERY 2.png in Resources */,
+				1143EC891F2CDD1E0060E268 /* Florentia-Extralight-trial.ttf in Resources */,
+				1143EC131F2BBC5B0060E268 /* LaunchScreen.storyboard in Resources */,
+				1143EC901F2CDD1E0060E268 /* Florentia-Medium-Italic-trial.ttf in Resources */,
+				1143EC571F2CDD060060E268 /* Arista-Pro-Icons-SemiBold-trial.ttf in Resources */,
+				1143EC561F2CDD060060E268 /* Arista-Pro-Icons-Regular-trial.ttf in Resources */,
+				1143EC5D1F2CDD060060E268 /* Arista_MYFONTS GALLERY 10.png in Resources */,
+				1143EC621F2CDD060060E268 /* Arista_MYFONTS GALLERY 6.png in Resources */,
+				1143EC461F2CDD060060E268 /* Arista-Pro-Alternate-ExtraLight-trial.ttf in Resources */,
+				1143EC871F2CDD1E0060E268 /* Florentia-Extrabold-trial.ttf in Resources */,
+				1143EC611F2CDD060060E268 /* Arista_MYFONTS GALLERY 5.png in Resources */,
+				1143EC551F2CDD060060E268 /* Arista-Pro-Icons-Light-trial.ttf in Resources */,
+				1143EC8D1F2CDD1E0060E268 /* Florentia-Italic-trial.ttf in Resources */,
+				1143EC451F2CDD050060E268 /* Arista-Pro-Alternate-Bold-trial.ttf in Resources */,
+				1143EC4E1F2CDD060060E268 /* Arista-Pro-ExtraLight-trial.ttf in Resources */,
+				1143EC981F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 5.png in Resources */,
+				1143EC481F2CDD060060E268 /* Arista-Pro-Alternate-Hairline-trial.ttf in Resources */,
+				1143EC9A1F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 9.png in Resources */,
+				1143EC4F1F2CDD060060E268 /* Arista-Pro-Family-CC-BY-NCLicensepdf.pdf in Resources */,
+				1143EC541F2CDD060060E268 /* Arista-Pro-Icons-Hairline-trial.ttf in Resources */,
+				1143EC8B1F2CDD1E0060E268 /* Florentia-Fat-Italic-trial.ttf in Resources */,
+				1143EC5C1F2CDD060060E268 /* Arista-Pro-Thin-trial.ttf in Resources */,
+				1143EC101F2BBC5B0060E268 /* Assets.xcassets in Resources */,
+				1143EC631F2CDD060060E268 /* Arista_MYFONTS GALLERY 7.png in Resources */,
+				1143EC991F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 7.png in Resources */,
+				1143EC931F2CDD1E0060E268 /* Florentia-Thin-Italic-trial.ttf in Resources */,
+				1143EC8A1F2CDD1E0060E268 /* Florentia-Family-CC-BY-NCLicensepdf.pdf in Resources */,
+				1143EC5F1F2CDD060060E268 /* Arista_MYFONTS GALLERY 3.png in Resources */,
+				1143EC4B1F2CDD060060E268 /* Arista-Pro-Alternate-SemiBold-trial.ttf in Resources */,
+				1143EC8C1F2CDD1E0060E268 /* Florentia-Fat-trial.ttf in Resources */,
+				1143EC4D1F2CDD060060E268 /* Arista-Pro-Bold-trial.ttf in Resources */,
+				1143EC4A1F2CDD060060E268 /* Arista-Pro-Alternate-Regular-trial.ttf in Resources */,
+				1143EC601F2CDD060060E268 /* Arista_MYFONTS GALLERY 4.png in Resources */,
+				1143EC951F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 2.png in Resources */,
+				1143EC491F2CDD060060E268 /* Arista-Pro-Alternate-Light-trial.ttf in Resources */,
+				1143EC661F2CDD060060E268 /* Arista_MYFONTS GALLERY COVER 1440 X 720.png in Resources */,
+				1143EC841F2CDD1E0060E268 /* Florentia-Bold-Italic-trial.ttf in Resources */,
+				1143EC471F2CDD060060E268 /* Arista-Pro-Alternate-Fat-trial.ttf in Resources */,
+				1143EC961F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 3.png in Resources */,
+				1143EC851F2CDD1E0060E268 /* Florentia-Bold-trial.ttf in Resources */,
+				1143EC861F2CDD1E0060E268 /* Florentia-Extrabold-Italic-trial.ttf in Resources */,
+				1143EC971F2CDD1E0060E268 /* florentiafinal_MYFONTS GALLERY 4.png in Resources */,
+				1143EC0E1F2BBC5B0060E268 /* Main.storyboard in Resources */,
+				1143EC511F2CDD060060E268 /* Arista-Pro-Hairline-trial.ttf in Resources */,
+				1143EC651F2CDD060060E268 /* Arista_MYFONTS GALLERY 9.png in Resources */,
+				1143EC941F2CDD1E0060E268 /* Florentia-Thin-trial.ttf in Resources */,
+				1143EC831F2CDD1E0060E268 /* Florentia-Black-trial.ttf in Resources */,
+				1143EC881F2CDD1E0060E268 /* Florentia-Extralight-Italic-trial.ttf in Resources */,
+				1143EC5A1F2CDD060060E268 /* Arista-Pro-Regular-trial.ttf in Resources */,
+				1143EC521F2CDD060060E268 /* Arista-Pro-Icons-Bold-trial.ttf in Resources */,
+				1143EC501F2CDD060060E268 /* Arista-Pro-Fat-trial.ttf in Resources */,
+				1143EC821F2CDD1E0060E268 /* Florentia-Black-Italic-trial.ttf in Resources */,
+				1143EC641F2CDD060060E268 /* Arista_MYFONTS GALLERY 8.png in Resources */,
+				1143EC8F1F2CDD1E0060E268 /* Florentia-Light-trial.ttf in Resources */,
+				1143EC531F2CDD060060E268 /* Arista-Pro-Icons-ExtraLight-trial.ttf in Resources */,
+				1143EC921F2CDD1E0060E268 /* Florentia-Regular-trial.ttf in Resources */,
+				1143EC4C1F2CDD060060E268 /* Arista-Pro-Alternate-Thin-trial.ttf in Resources */,
+				1143EC591F2CDD060060E268 /* Arista-Pro-Light-trial.ttf in Resources */,
+				1143EC581F2CDD060060E268 /* Arista-Pro-Icons-Thin-trial.ttf in Resources */,
+				1143EC911F2CDD1E0060E268 /* Florentia-Medium-trial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3EC94A010DFB4704187E4998 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News1/Pods-News1-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		836A824442B7F0439A6E12B7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-News1/Pods-News1-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D672E4449993E78A78DEA3D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1143EC011F2BBC5B0060E268 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1143EC0B1F2BBC5B0060E268 /* ViewController.swift in Sources */,
+				112C62F41F2D162E00873775 /* PopularTableViewCell.swift in Sources */,
+				1143EC1F1F2CBB310060E268 /* PopularNewsViewController.swift in Sources */,
+				1143EC211F2CBD480060E268 /* TopNewsTableViewCell.swift in Sources */,
+				1143EC091F2BBC5B0060E268 /* AppDelegate.swift in Sources */,
+				1143EC1D1F2CBAEF0060E268 /* LatestNewsViewController.swift in Sources */,
+				1143EC9D1F2CDF190060E268 /* LatestTableViewCell.swift in Sources */,
+				11A1FCCF1F2DB2B100B69834 /* DetailViewController.swift in Sources */,
+				1143EC1B1F2CBAC20060E268 /* TopNewsViewController.swift in Sources */,
+				112C62F21F2CFE4C00873775 /* MaterialView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1143EC0C1F2BBC5B0060E268 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1143EC0D1F2BBC5B0060E268 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1143EC111F2BBC5B0060E268 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1143EC121F2BBC5B0060E268 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1143EC151F2BBC5B0060E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1143EC161F2BBC5B0060E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1143EC181F2BBC5B0060E268 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EFA32CFF65855AAA8DCC5B3 /* Pods-News1.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD2S85JCK8;
+				INFOPLIST_FILE = News1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ammy.pandey.News1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1143EC191F2BBC5B0060E268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2ECAB5B0BBFABE735FF7EC /* Pods-News1.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZD2S85JCK8;
+				INFOPLIST_FILE = News1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ammy.pandey.News1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1143EC001F2BBC5B0060E268 /* Build configuration list for PBXProject "News1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143EC151F2BBC5B0060E268 /* Debug */,
+				1143EC161F2BBC5B0060E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1143EC171F2BBC5B0060E268 /* Build configuration list for PBXNativeTarget "News1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1143EC181F2BBC5B0060E268 /* Debug */,
+				1143EC191F2BBC5B0060E268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1143EBFD1F2BBC5B0060E268 /* Project object */;
+}
